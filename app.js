@@ -19,7 +19,7 @@ var dec = decipher.final('utf8');
 
 // BASIC 認証
 var basicAuth = require('basic-auth-connect');
-app.use(basicAuth('hoge', hagepass));
+app.use(basicAuth('hoge', 'hogepass'));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
