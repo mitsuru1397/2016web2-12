@@ -10,11 +10,9 @@ var users = require('./routes/users');
 
 var app = express();
 
-/*
 // BASIC 認証
 var basicAuth = rewuire('basic-auth-connect');
 app.use(basicAuth('hoge', 'hogepass'));
-*/
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
